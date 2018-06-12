@@ -1,0 +1,39 @@
+body {
+    font-family: 'Anaheim', sans-serif;
+    text-align: center;
+    color: mintcream;
+    background-color: whitesmoke;
+}
+#letters {
+    font-size: 20px;
+}
+.container {
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: 	#ff6700;
+
+}
+.letterField{
+    /* width: 100px;
+    height: 20px;
+    border: solid black; */
+    margin: 0 25%;
+}
+
+h2 {
+    padding-top: 170px;
+
+}
+
+#letters {
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+    .container{
+        width: 300px;
+        height: 300px;
+    }
+}
