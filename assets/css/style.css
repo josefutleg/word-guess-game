@@ -1,34 +1,36 @@
-body {
+body, .button {
     font-family: 'Anaheim', sans-serif;
     text-align: center;
     color: mintcream;
     background-color: whitesmoke;
 }
+
 #letters {
     font-size: 20px;
+    margin: auto;
+    text-align: center;
 }
+
 .container {
     height: 500px;
     width: 500px;
     margin: 0 auto;
     background-color: 	#ff6700;
-
 }
-.letterField{
-    /* width: 100px;
-    height: 20px;
-    border: solid black; */
-    margin: 0 25%;
+.button {
+    background-color: 	#ff6700;
+    color: mintcream;
+    font-size: 15px;
+    border: none;
+    padding: 4px;
+    outline: 0;
+}
+.button:hover {
+    background-color:   pink;
 }
 
 h2 {
-    padding-top: 170px;
-
-}
-
-#letters {
-    margin: auto;
-    text-align: center;
+    padding-top: 160px;
 }
 
 @media only screen and (max-width: 640px) {
