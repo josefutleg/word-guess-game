@@ -7,7 +7,8 @@
     var wins = 0;
     var wrongLetter = [];
     // create an array that will change random song into an under score
-    var playVideo = '<iframe width="500" height="500" src="https://www.youtube.com/embed/jgNjn2b1Jl0?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
+    var videoList = ['<iframe width="500" height="500" src="https://www.youtube.com/embed/jgNjn2b1Jl0?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>','<iframe width="500" height="500" src="https://www.youtube.com/embed/9Mfcri8PGL8?rel=0&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'];
+    var playVideo = videoList[Math.floor(Math.random() * videoList.length)];
     var guessesCounter = 15;
     var docUserGuesses = 'press any letter to start!';
     var s;
